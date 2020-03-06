@@ -3,6 +3,9 @@
 {% block content %}
 
 <p><strong>Number of people in space:</strong> {{ astronauts.number }} </p>
-<p><strong>Astronauts in space:</strong> {{ astronauts.people }}</p>
-
+<p><strong>Astronauts in space:</strong> 
+{% for i in astronauts.people %}
+    {{ i.people }} - {{ i.name }}
+{% endfor %}
+</p>
 {% endblock %}
