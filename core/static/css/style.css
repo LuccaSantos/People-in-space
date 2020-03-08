@@ -1,0 +1,17 @@
+body {
+    background: url('../image/space.jpeg');
+    color: wheat;
+}
+body a{
+    color: wheat;
+}
+div ul{
+    list-style: none;
+}
+header {
+    margin: 3em;
+}
+main {
+    margin: 3em;
+    background-color: rgba(0.50,0.50,0.50,0.7)
+}

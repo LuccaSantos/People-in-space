@@ -1,11 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<p><strong>Number of people in space:</strong> {{ astronauts.number }} </p>
-<p><strong>Astronauts in space:</strong> 
-{% for i in astronauts.people %}
-    {{ i.people }} - {{ i.name }}
-{% endfor %}
-</p>
+<div class="">
+    <div class="number-of-people text-center">
+        <h2>{{ astronauts.number }} </h2>
+    </div>
+    <div class="name-of-people text-center">
+        <ul>
+            <h2><strong>Name of astronauts in space</strong></h2>
+            {% for i in astronauts.people %}
+            <li> {{ i.people }} {{ i.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock %}
