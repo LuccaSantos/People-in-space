@@ -5,5 +5,5 @@
 http://api.open-notify.org/astros.json
 
  - Screenshot:
-![Screenshot](readme.png)
+![readme](readme.png)
 
